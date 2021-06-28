@@ -1,0 +1,130 @@
+body {
+  background-color: hsl(0, 100%, 74%);
+}
+.wrapper {
+  background: url("images/bg-intro-desktop.png");
+  width: 1300px;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+#content-section1 {
+  color: white;
+  position: absolute;
+  top: 300px;
+  left: 250px;
+}
+
+h1 {
+  width: px;
+  font-size: 2.5rem;
+}
+
+.text-sec1 {
+  font-size: 1rem;
+}
+
+#content-section2 {
+  width: 425px;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+.try {
+  text-align: center;
+  background-color: rgb(53, 53, 151);
+  width: 425px;
+  height: 30px;
+  color: white;
+  padding-top: 10px;
+  border-radius: 0.5rem;
+  box-shadow: -0px 3px 5px rgb(152, 136, 177);
+}
+
+.form-fill {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: -0px 3px 5px rgb(69, 67, 71);
+}
+form {
+  min-height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+input {
+  width: 350px;
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  padding-left: 20px;
+  border: 1px solid rgb(206, 206, 207);
+}
+
+.error {
+  display: none;
+  background-color: white;
+  color: red;
+  /* outline: 2px solid blue; */
+  width: 250px;
+  height: 20px;
+  padding: -15px 0px 10px 0px;
+  margin-top: -5px;
+  margin-left: 125px;
+  text-align: right;
+}
+
+.show,
+.exclamation {
+  display: block;
+}
+.formNew-width {
+  height: 300px;
+}
+
+.bordercolor {
+  border: 1px solid rgb(245, 6, 6);
+}
+label {
+  position: relative;
+}
+.excla {
+  position: absolute;
+  top: 13px;
+  right: 11px;
+  display: none;
+}
+.excla.show {
+  display: inline-block;
+}
+
+.submit-button {
+  margin-top: 5px;
+  width: 370px;
+  border-radius: 5px;
+  height: 33px;
+  background-color: rgb(10, 187, 134);
+  color: white;
+  border: none;
+  box-shadow: -0px 3px 5px rgb(103, 97, 112);
+  text-transform: uppercase;
+}
+
+.submit-button:hover {
+  background-color: rgb(13, 240, 168);
+  border: none;
+  cursor: pointer;
+}
+
+.terms {
+  font-size: small;
+}
+a {
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+ <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+ integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+ crossorigin="anonymous"
+/>
+ <title>Frontend Mentor | Intro component with sign up form</title>
+<link rel="stylesheet" href="style.css">
+
+<script>
+    
+</script>
+</head>
+
+<body>
+<div class="wrapper">
+
+      <section id="content-section1"><!--strt of  secton 1-->
+          <h1 class="learn"> Learn to code by <br> watching others</h1>
+          <p class="text-sec1"> See how experienced developers solve problems in real-time. <br> Watching scripted tutorials is great, 
+            but understanding how <br> developers think is invaluable. </p>
+      </section><!--end of section1-->
+
+      <section id="content-section2"><!--strt of  secton 2-->
+      <div><p class="try">Try it free 7 days then $20/mo. thereafter</p></div>
+     
+   <div class="form-fill"  id="form">
+        <form name="myForm"  >
+
+          <label for="first name">
+            <input type="text"  name="fname" placeholder="First Name"  id="first name">
+            <p class="error" id="myDropdown"><i> Name cannot be empty</i></p>
+            <img src="images/red-excla.jpg" class="excla"  width="20px" height="20px">
+        </label>
+
+        <label for="last name">
+          <input type="text" placeholder="Last Name" id="last name">
+          <p class="error" ><i>Last Name cannot be empty</i></p>
+          <img src="images/red-excla.jpg" class="excla"  width="20px" height="20px">
+        </label>
+
+        <label for="email">
+          <input type="email" name="" placeholder="Email  Address" id="email">
+          <p class="error"><i>Looks like this is not an email</i></p>
+          <img src="images/red-excla.jpg" class="excla"  width="20px" height="20px">
+      </label>
+
+        <label for="password">
+          <input type="password" placeholder="Password" id="password">
+          <p class="error"><i>Password cannot be empty</i></p>
+          <img src="images/red-excla.jpg" class="excla"  width="20px" height="20px">
+      </label>
+
+        <label for=" submit">
+        <button type="submit" class="submit-button" value="Claim your free Trial" id="submit" >click</button>
+        <p class="terms"> By clicking the button, you are agreeing to our    <a href="#" target="_blank" rel="noopener noreferrer">  Terms and Services</a></p>
+      </label>
+
+      </form>
+      </div>
+      </section><!--end of section2-->
+      </div>
+  
+
+
+
+      <!--  <footer>
+          <p class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+            Coded by <a href="#">Your Name Here</a>.
+          </p>
+        </footer>  --->
+
+
+
+<script src="app.js"></script>
+      </body>
+
+</html>
